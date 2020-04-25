@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ae2e8fd-4e93-412f-85d0-49dacf0cef1b" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/Food_data_scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/abc.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/nurition_download.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/nutrition_module/nurition_download.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/nutrition.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/App/nutrition_module/nutrition.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/nutrition_select_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/nutrition_module/nutrition_select_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/nutrition_table_scanner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/nutrition_module/person_bios.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/nutrition_module/person_bios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/Recipe.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/RecipeDataset.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/App/recipe_module/dataset/RecipeDataset2.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/recipe_conveter_json-csv.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/recipe_data_preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/recipe_download_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/recipe_module/recipe_download_selenium.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/recipe_module/recipe_suggestion_algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/App/recipe_module/recipe_suggestion_algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/shortestPath_module/shortest_path_Astar.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/shortestPath_module/shotest_path_all_product_list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Application_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Cropped/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nutrition guideline" beforeDir="false" afterPath="$PROJECT_DIR$/nutrition guideline" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Final year project final" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webApp/app/route.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/kaiya comment.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_download_selenium.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/nutrition_module/nurition_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>register</find>
+      <find>p</find>
+      <find>name</find>
+      <find>allNutritionValue</find>
+      <find>myresult</find>
+      <find>Salt and white pepper to taste</find>
+      <find>frozenset</find>
+      <find>mil</find>
+      <find>508</find>
+      <find>frozenset({'bean', 'beef', 'chilli'})</find>
+      <find>frozenset({'chicken', 'Dhall', 'beef'})</find>
+      <find>addProdcutValue</find>
+      <find>id[</find>
+      <find>selectedProctDetails</find>
+      <find>add</find>
+      <find>a</find>
+      <find>err</find>
+      <find>downloadRecipes</find>
+      <find>preSuggestRecipeDiseases</find>
+      <find>exampleModalLabel</find>
+      <find>idHolder</find>
+      <find>232</find>
+      <find>330</find>
+      <find>suggestProductUsingDiseases</find>
+      <find>getCustomerDisese</find>
+      <find>data[0</find>
+      <find>customerView</find>
+      <find>getIdFromRecipe</find>
+      <find>ImmutableMultiDict</find>
+      <find>ASTRA BUTTER 500G</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testing.py" />
+        <option value="$PROJECT_DIR$/App/nutrition_module/nutrition_table_scanner.py" />
+        <option value="$PROJECT_DIR$/App/nutrition_module/person bios.py" />
+        <option value="$PROJECT_DIR$/App/index.html" />
+        <option value="$PROJECT_DIR$/App/Test.py" />
+        <option value="$PROJECT_DIR$/test/app/hello.py" />
+        <option value="$PROJECT_DIR$/web.py" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/webApp/app/static/css/util.css" />
+        <option value="$PROJECT_DIR$/API.py" />
+        <option value="$PROJECT_DIR$/App/recipe_module/recipe_data_preprocess.py" />
+        <option value="$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/flask/app.py" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/addProduct.html" />
+        <option value="$PROJECT_DIR$/App/nutrition_module/nurition_download.py" />
+        <option value="$PROJECT_DIR$/App/test.py" />
+        <option value="$PROJECT_DIR$/App/recipe_module/recipe_download_selenium.py" />
+        <option value="$PROJECT_DIR$/App/recipe_module/recipe_data_insert.py" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerView2.html" />
+        <option value="$PROJECT_DIR$/webApp/app/static/js/test.js" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerView1.html" />
+        <option value="$PROJECT_DIR$/App/nutrition_module/person_bios.py" />
+        <option value="$PROJECT_DIR$/Application_data.py" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerView.html" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/login.html" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerSuggestIngredient.html" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerAddToCart.html" />
+        <option value="$PROJECT_DIR$/webApp/app/templates/customerHome.html" />
+        <option value="$PROJECT_DIR$/App/recipe_module/recipe_suggestion_algorithm.py" />
+        <option value="$PROJECT_DIR$/webApp/app/route.py" />
+        <option value="$PROJECT_DIR$/App/nutrition_module/nutrition_select_algorithm.py" />
+        <option value="$PROJECT_DIR$/App/kaiya comment.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1822" />
+    <option name="y" value="109" />
+    <option name="width" value="1040" />
+    <option name="height" value="745" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Final year project final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final year project final" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final year project final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final year project final" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final year project final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final year project final" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="nutrition_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Final year project final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final year project final" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="recipe_module" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webApp/app/templates" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Final year project final\App\recipe_module\dataset" />
+      <recent name="E:\Final year project final\webApp\app\static" />
+      <recent name="E:\Final year project final\App\recipe_module" />
+      <recent name="E:\Final year project final\webApp\app\templates" />
+      <recent name="E:\Final year project final\webApp\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Final year project final\webApp\app\templates" />
+      <recent name="E:\Final year project final\webApp\app\static\css" />
+      <recent name="E:\Final year project final\webApp\app\static\js" />
+      <recent name="E:\Final year project final" />
+      <recent name="E:\Final year project final\App\recipe_module\dataset" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.kaiya comment">
+    <configuration name="AndroidPythonServer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final year project final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AndroidPythonServer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="kaiya comment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final year project final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/kaiya comment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nutrition_select_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final year project final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App/nutrition_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/nutrition_module/nutrition_select_algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recipe_suggestion_algorithm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final year project final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/App/recipe_module" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/App/recipe_module/recipe_suggestion_algorithm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="route" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Final year project final" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webApp/app" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webApp/app/route.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.kaiya comment" />
+        <item itemvalue="Python.route" />
+        <item itemvalue="Python.AndroidPythonServer" />
+        <item itemvalue="Python.recipe_suggestion_algorithm" />
+        <item itemvalue="Python.nutrition_select_algorithm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ae2e8fd-4e93-412f-85d0-49dacf0cef1b" name="Default Changelist" comment="" />
+      <created>1582471974283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582471974283</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1582612594586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582612594586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_in_API_py - 2020.02.28 at 21h 14m 29s.xml">
+      <configuration name="Nosetests in API.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1376" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49865952" visible="true" weight="0.19506727" />
+      <window_info id="Structure" order="1" sideWeight="0.5013405" side_tool="true" weight="0.2157738" />
+      <window_info id="Favorites" order="2" sideWeight="0.5013405" side_tool="true" weight="0.2157738" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32850242" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30273753" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993559" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850242" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32850242" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32850242" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32850242" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/App/recipe_module/recipe_data_insert.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/webApp/app/route.py</url>
+          <line>66</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/webApp/app/route.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="len(groupOfProduct)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>index</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/css/util.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="111" column="32" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB_config.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/API.py" />
+    <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_conveter_json-csv.py" />
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/nutrition_table_scanner.py" />
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/abc.txt" />
+    <entry file="file://$PROJECT_DIR$/testing.py" />
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/Food_data_scanner.py" />
+    <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_data_preprocess.py" />
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/images/bg3.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/41.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/42.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/43.jpg" />
+    <entry file="file://$PROJECT_DIR$/images/Cropped/1.png" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/mysql/connector/abstracts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/werkzeug/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="345" selection-start-line="345" selection-end-line="345" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="1948" selection-start-line="1948" selection-end-line="1948" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/addProduct.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="40" column="80" selection-start-line="40" selection-start-column="65" selection-end-line="40" selection-end-column="80" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DictList.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/test.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="416" column="8" selection-start-line="416" selection-start-column="8" selection-end-line="416" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/images/img-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/images/bg-01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/images/bg1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/images/bg2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AprioriComm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/mysql/connector/cursor_cext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_data_insert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerView3.html" />
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerView2.html" />
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/js/test.js" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/tensorflow/Lib/site-packages/mysql/connector/connection_cext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="523" selection-start-line="523" selection-end-line="523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/static/css/style2.css" />
+    <entry file="file://$PROJECT_DIR$/Application_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="55" column="54" lean-forward="true" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#0;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerRecipeUsingDisease.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="148" selection-start-line="148" selection-end-line="193" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#4;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/person_bios.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerAddToCart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="63" column="118" selection-start-line="63" selection-start-column="118" selection-end-line="63" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidPythonServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_suggestion_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/templates/customerSuggestIngredient.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="184" column="78" selection-start-line="184" selection-start-column="55" selection-end-line="184" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/nutrition_select_algorithm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webApp/app/route.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python37/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/nutrition_module/nurition_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="12" lean-forward="true" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/recipe_module/recipe_download_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/kaiya comment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Customer view</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/icons/favicon.ico') }}"/>
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='fonts/iconic/css/material-design-iconic-font.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animate/animate.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/css-hamburgers/hamburgers.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/animsition/css/animsition.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='vendor/noui/nouislider.min.css') }}">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css{{ url_for('static', filename='css/util.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+    <!--===============================================================================================-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table1");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+  myFunction1()
+}
+function myFunction1() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table2");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+   myFunction2()
+}
+function myFunction2() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table3");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+  myFunction3()
+}
+
+function myFunction3() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table4");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+   myFunction4()
+}
+function myFunction4() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("table5");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+
+<div class="container-contact100" style="background-image:url('static/images/bg1.jpg'); background-repeat: no-repeat;
+  background-attachment: fixed;background-size: cover;">
+
+    <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+    <div class="wrap-contact100">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01" >
+
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item active">
+                        <a class="navbar-brand"></a>
+                        <button type="button" class="btn btn-outline-success" onClick="location.href='#table1'">Very Low</button>
+                    </li>
+                         <a class="navbar-brand" ></a>
+                        <button type="button" class="btn btn-outline-primary" onClick="location.href='#table2'">Low</button>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="navbar-brand" ></a>
+                        <button type="button" class="btn btn-outline-secondary" onClick="location.href='#table3'">Medium</button>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="navbar-brand" ></a>
+                        <button type="button" class="btn btn-outline-warning" onClick="location.href='#table4'">High</button>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="navbar-brand" ></a>
+                        <button type="button" class="btn btn-outline-danger" onClick="location.href='#table5'">Very High</button>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="navbar-brand" style=" float: right;" >{{session.get('username')}}</a>
+
+                    </li>
+                </ul>
+
+
+                <li class="nav-item active">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="myInput" onkeyup="myFunction()">
+<!--                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                    </form>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="navbar-brand" ></a>
+                    <button type="button" class="btn btn-outline-danger float-right" onClick="location.href='/logout'" >Logout</button>
+                </li>
+
+
+            </div>
+        </nav>
+        <form class="contact100-form validate-form">
+        	<span class="contact100-form-title">
+					Customer view
+            </span>
+
+
+
+            <div class="wrap-input100 validate-input bg1" id="table1">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Recipe Name</th>
+                        <th scope="col">Recipe Type</th>
+                        <th scope="col">Ingredient</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if  data[0] != None %}
+                        {% for value in data[0] %}
+                    <tr>
+                        <th class="table-success" scope="row">{{ value[0]}}</th>
+                        <td class="table-success">{{ value[1]}}</td>
+                        <td class="table-success">{{ value[2]}}</td>
+                        <td class="table-success">
+
+                            <div class="btn-group dropleft">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    View Ingredient
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                    {% for x in data[5] %}
+                                    {% if x[0]== value[0] %}
+                                    <a class="dropdown-item">{{ x[1]}}</a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                        {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="wrap-input100 validate-input bg1" id="table2">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Recipe Name</th>
+                        <th scope="col">Recipe Type</th>
+                        <th scope="col">Ingredient</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if  data[1] != None %}
+                        {% for value in data[1] %}
+
+                    <tr>
+                        <th class="table-primary" scope="row">{{ value[0]}}</th>
+                        <td class="table-primary">{{ value[1]}}</td>
+                        <td class="table-primary">{{ value[2]}}</td>
+                        <td class="table-primary">
+
+                            <div class="btn-group dropleft">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    View Ingredient
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                    {% for x in data[5] %}
+                                    {% if x[0]== value[0] %}
+                                    <a class="dropdown-item">{{ x[1]}}</a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                        </td>
+
+                    </tr>
+
+                        {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="wrap-input100 validate-input bg1" id="table3">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Recipe Name</th>
+                        <th scope="col">Recipe Type</th>
+                        <th scope="col">Ingredient</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if  data[2] != None %}
+                        {% for value in data[2] %}
+                    <tr>
+                        <th class="table-active" scope="row">{{ value[0]}}</th>
+                        <td class="table-active">{{ value[1]}}</td>
+                        <td class="table-active">{{ value[2]}}</td>
+                        <td class="table-active">
+                            <div class="btn-group dropleft">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    View Ingredient
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                    {% for x in data[5] %}
+                                    {% if x[0]== value[0] %}
+                                    <a class="dropdown-item" >{{ x[1]}}</a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                        {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+
+            <div class="wrap-input100 validate-input bg1" id="table4">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Recipe Name</th>
+                        <th scope="col">Recipe Type</th>
+                        <th scope="col">Ingredient</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        {% if  data[3] != None %}
+                        {% for value in data[3] %}
+                    <tr>
+                        <th class="table-warning" scope="row">{{ value[0]}}</th>
+                        <td class="table-warning">{{ value[1]}}</td>
+                        <td class="table-warning">{{ value[2]}}</td>
+                        <td class="table-warning">
+                            <div class="btn-group dropleft">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    View Ingredient
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                    {% for x in data[5] %}
+                                    {% if x[0]== value[0] %}
+                                    <a class="dropdown-item">{{ x[1]}}</a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                        {% endfor %}
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="wrap-input100 validate-input bg1" id="table5">
+
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Recipe Name</th>
+                        <th scope="col">Recipe Type</th>
+                        <th scope="col">Ingredient</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                         {% if  data[4] != None %}
+                        {% for value in data[4] %}
+                    <tr>
+                        <th class="table-danger" scope="row">{{ value[0]}}</th>
+                        <td class="table-danger">{{ value[1]}}</td>
+                        <td class="table-danger">{{ value[2]}}</td>
+                        <td class="table-danger">
+                            <div class="btn-group dropleft">
+                                <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    View Ingredient
+                                </button>
+                                <div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                                    {% for x in data[5] %}
+                                    {% if x[0]== value[0] %}
+                                    <a class="dropdown-item">{{ x[1]}}</a>
+
+                                    {% endif %}
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+                        {% endfor %}
+                         {% endif %}
+                    </tbody>
+                </table>
+            </div>
+
+
+        </form>
+
+    </div>
+
+</div>
+</div>
+
+</body>
+</html>
